@@ -10,18 +10,19 @@ An intelligent PR analysis tool that provides AI-powered summaries, risk assessm
 
 ## Tech Stack
 - React + TypeScript
+- Basic Backend using Node.js and Express.js
 - Tailwind CSS
 - GitHub API
-- OpenAI API
+- GroqAI API
 
 ## Setup
+
+- #### Start the Backend Server
+```bash
+node server.js
+```
+- #### Start the Frontend (Development Mode)
 ```bash
 npm install
 npm run dev
-```
-
-## Environment Variables
-```
-GITHUB_TOKEN=your_token
-OPENAI_API_KEY=your_key
 ```
